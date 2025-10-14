@@ -404,8 +404,8 @@ class SISDataCollector:
 def main():
     # 配置信息
     BASE_URL = "http://59.51.82.42:8880"
-    USERNAME = "049"
-    PASSWORD = "Hdw19951125"
+    USERNAME = "****"
+    PASSWORD = "********"
     
     # 创建数据收集器
     collector = SISDataCollector(BASE_URL, USERNAME, PASSWORD)
@@ -468,4 +468,5 @@ def main():
         traceback.print_exc()
 
 if __name__ == "__main__":
+
     main()
