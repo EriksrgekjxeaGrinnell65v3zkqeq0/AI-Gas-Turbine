@@ -1,0 +1,34 @@
+{
+  "interface": {
+    "refresh_interval": 5,
+    "theme": "深色主题",
+    "language": "中文"
+  },
+  "data": {
+    "history_days": 30,
+    "cache_size": 3600
+  },
+  "sis": {
+    "server": "http://59.51.82.42:8880",
+    "username": "049",
+    "password": "",
+    "interval": 5
+  },
+  "files": {
+    "point_file": "point.xls",
+    "map_file": "Cor_kks.xls"
+  },
+  "alarm": {
+    "notify_critical": true,
+    "notify_high": true,
+    "notify_medium": false,
+    "repeat_suppress": true,
+    "repeat_interval": 10
+  },
+  "system": {
+    "auto_start": false,
+    "auto_save": true,
+    "enable_sound": true,
+    "enable_notification": true
+  }
+}

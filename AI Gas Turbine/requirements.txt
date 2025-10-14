@@ -1,0 +1,36 @@
+# 核心依赖
+torch>=2.0.0
+numpy>=1.21.0
+pandas>=1.3.0
+scikit-learn>=1.0.0
+openpyxl>=3.0.0
+requests>=2.25.0
+
+# 网络和通信
+psutil>=5.8.0
+
+# LangChain RAG相关
+langchain>=0.1.0
+langchain-community>=0.0.10
+chromadb>=0.4.0
+sentence-transformers>=2.2.0
+tiktoken>=0.5.0
+pypdf>=3.10.0
+python-docx>=1.1.0
+unstructured>=0.10.0
+
+# 文档处理
+pdf2image>=1.16.0
+pillow>=10.0.0
+
+# 其他工具
+python-dateutil>=2.8.0
+typing-extensions>=4.0.0
+
+# Ollama集成
+langchain-ollama>=0.1.0
+
+# GUI相关依赖
+PyQt5>=5.15.0
+matplotlib>=3.5.0
+pyqtgraph>=0.12.0
